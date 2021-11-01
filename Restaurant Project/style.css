@@ -1,0 +1,220 @@
+nav{
+    width: 100%;
+    float: left;
+}
+.menu {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(204, 231, 232, 0.2);
+    height: 90px;
+    display: flex;
+    padding: 8px;
+}
+.menu h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+}
+.menu li{
+    display: inline ;
+}
+.button {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button :link{
+    color: skyblue;
+    }
+.button :hover{
+    color: slateblue;
+}
+
+body {
+    background-image: url(https://i1.wp.com/www.baronmiedzyzdroje.pl/wp-content/uploads/2019/04/moody-dark-food-photography-bangkok-thailand.jpg?fit=1200%2C1200&ssl=1);
+    background-size: cover;
+    color: white;
+}
+.top {
+    padding-top: 10%;
+    text-align: center;
+}
+.top h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+.top p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+.button-scroll {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-scroll a{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: grey;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    font-style: none;
+}
+.body{
+    background-color: rgba(22, 201, 207, 0.05);
+}
+
+.hero1 {
+    padding: 8px;
+}
+.hero1 h2{
+    font-family: 'Dancing Script', cursive;;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero1 li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-style: none;
+    display: inline;
+    padding-left: 0;
+    padding: 10px;
+}
+.sub-hero1 {
+    background-color:rgba(204, 231, 232, 0.5);
+    text-align: center;
+}
+.sub-hero1 img {
+    max-width: 150px;
+    height: 30%;
+}
+.sub-hero2 {
+    background-color: rgba(204, 231, 232, 0.5);
+    text-align: center;
+}
+.sub-hero2 img{
+    max-width: 188px;
+    height: 30%;
+}
+.sub-hero3 {
+    background-color: rgba(204, 231, 232, 0.5);
+    text-align: center;
+}
+.sub-hero3 img{
+    max-width: 225px;
+    height: 30%;
+}
+.hero1 button{
+    background-color: transparent;
+    outline: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 47.5%;
+    border-radius: 12px;
+    transition-duration: 40ms;
+}
+.hero1 button:hover {
+    background-color: white;
+    color: black;
+}
+.hero2 {
+    padding-top: 50px;
+    margin-left: 20%;
+    display: flex;
+}
+.hero2-1 {
+    background-color: rgba(204, 231, 232, 0.5);
+    padding-right: 50px;
+}
+.hero2-1 h1{
+    font-family: 'Bebas Neue', cursive;;
+    padding-left: 50px;
+    text-align: left;
+}
+.hero2-1 ul {
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.hero2-1 li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-style: none;
+    padding-left: 0;
+    padding: 10px;
+}
+.hero2-2 {
+    padding-left: 100px;
+}
+.h1-menu {
+    font-family: 'Dancing Script', cursive;;
+    text-align: center;
+}
+#menu {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    background-color: white;
+    color: black;
+}
+.menu-1 ul{
+    padding-top: 15px;
+    list-style: none;
+}
+.menu-1 li {
+    font-family: 'Dancing Script', cursive;;
+}
+.menu-1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+.menu-2 ul{
+    padding-top: 15px;
+    list-style: none;
+}
+.menu-2 li{
+    font-family: 'Dancing Script', cursive;;
+    padding-top: none;
+    padding: 17px;
+}
+.bottom{
+    background-color: darkgrey;
+    height: 100px;
+}
+.bottom :only-child{
+    padding: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom :only-child li{
+    text-decoration: none;
+    font-style: none;
+    display: inline;
+}
+.img1 img{
+    max-width: 50px;
+    height: 50px;
+}
+.img2 img{
+    max-width: 65px;
+    max-height: 65px;
+}
