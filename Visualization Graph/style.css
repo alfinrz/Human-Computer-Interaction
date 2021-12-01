@@ -1,0 +1,537 @@
+.header {
+  background: #FFA500;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+/*Start of Graph 1*/
+.graph1 {
+  padding-top: 50px;
+}
+
+.graph1 h2 {
+  color: Black;
+  text-decoration: underline;
+  text-align:left;
+}
+
+.graph1 .Survival {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    red 0,
+    red 222.48deg,
+    blue 222.48deg,
+    blue 360deg
+  );
+  margin-left: 200px;
+  margin-top: 225px;
+  transform: translate(-50%, -50%);
+}
+
+.Survived {
+  position: relative;
+  font-size: 35px;
+  top: 135px;
+  left: 180px;
+  color: Black;
+}
+
+.Death {
+  position: relative;
+  font-size: 35px;
+  top: 90px;
+  left: 50px;
+  color: White;
+}
+
+.Survive{
+  background-color: Blue;
+  padding: 20px;
+  border: 20px blue;
+  lenght: 200px;
+  width: 125px;
+  margin-top: -150px;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Died{
+  background-color: red;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 125px;
+  margin-left: 200px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*start of graph 2 */
+
+.graph2 {
+  padding-top: -200px;
+  margin-right: 30px;
+}
+
+.graph2 h2 {
+  color: Black;
+  text-decoration: underline;
+  text-align:center;
+  margin-top: -525px;
+  margin-right: 500px;
+}
+
+.graph2 .PClass {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    red 0,
+    red 88.8deg,
+    blue 88.8deg,
+    blue 165deg,
+    orange 165deg,
+    orange 360deg
+  );
+  margin-left: 500px;
+  margin-top: 40px;
+  
+}
+
+.P1 {
+  position: relative;
+  font-size: 35px;
+  top: 80px;
+  left: 200px;
+  color: Black;
+}
+
+.P2 {
+  position: relative;
+  font-size: 35px;
+  top: 175px;
+  left: 215px;
+  color: White;
+}
+
+.P3{
+  position: relative;
+  font-size: 35px;
+  top: 80px;
+  left: 40px;
+  color: White;
+}
+
+.A1{
+  background-color: Blue;
+  padding: 20px;
+  border: 20px blue;
+  lenght: 200px;
+  width: 100px;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: 40px;
+}
+
+.A2{
+  background-color: red;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 100px;
+  margin-left: 600px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.A3{
+background-color: orange;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 100px;
+  margin-left: 750px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+/*start of graph 3 */
+.graph3 {
+  padding-top: 50px;
+}
+
+.graph3 h2 {
+  color: Black;
+  text-decoration: underline;
+  text-align:center;
+  margin-top: -580px;
+  margin-left: 400px;
+}
+
+.graph3 .Gender {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    green 0,
+    green 128deg,
+    Yellow 128deg,
+    Yellow 360deg
+  );
+  margin-left: 1150px;
+  margin-top: 225px;
+  transform: translate(-50%, -50%);
+}
+
+.Female {
+  position: relative;
+  font-size: 35px;
+  top: 135px;
+  left: 180px;
+  color: Black;
+}
+
+.Male {
+  position: relative;
+  font-size: 35px;
+  top: 90px;
+  left: 50px;
+  color: Black;
+}
+
+.Guys{
+  background-color: Yellow;
+  padding: 20px;
+  border: 20px blue;
+  lenght: 200px;
+  width: 125px;
+  margin-top: -145px;
+  margin-left: 950px;
+  color:Black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Gals{
+  background-color: Green;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 125px;
+  margin-left: 1150px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+/*start of Graph 4 */
+.graph4 {
+  padding-top: -200px;
+  margin-right: 30px;
+}
+
+.graph4 h2 {
+  color: Black;
+  text-decoration: underline;
+  text-align:right;
+  margin-top: -575px;
+  margin-right: 100px;
+}
+
+.graph4 .Siblings {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    pink 0,
+    pink 245deg,
+    blue 245deg,
+    blue 332.73deg,
+    orange 332.73deg,
+    orange 344.28deg,
+    Yellow 344.28deg,
+    yellow 349.78deg,
+    brown 349.78deg,
+    brown 360deg
+  );
+  margin-left: 1450px;
+  margin-top: 40px;
+  
+}
+
+.S1 {
+  position: relative;
+  font-size: 35px;
+  top: 150px;
+  left: 200px;
+  color: Black;
+}
+
+.S2 {
+  position: relative;
+  font-size: 35px;
+  top: 100px;
+  right: -30px;
+  color: White;
+}
+
+.S3{
+  position: relative;
+  font-size: 20px;
+  top: 100px;
+  left: 15px;
+  color: White;
+  transform-origin: 0,0;
+  transform: rotate(65deg)
+}
+
+.S4{
+  position: relative;
+  font-size: 15px;
+  top: 80px;
+  left: 10px;
+  color: black;
+  transform-origin: 0,0;
+  transform: rotate(75deg)
+}
+
+.S5{
+  position: relative;
+  font-size: 20px;
+  top: 80px;
+  left: 3px;
+  color: white;
+  transform-origin: 0,0;
+  transform: rotate(85deg)
+}
+
+.X1{
+  background-color: pink;
+  padding: 20px;
+  border: 20px blue;
+  lenght: 200px;
+  width: 50px;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 1400px;
+  margin-top: 40px;
+}
+
+.X2{
+  background-color: Blue;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 1500px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.X3{
+background-color: orange;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 1600px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+.X4{
+  background-color: yellow;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 1700px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.X5{
+  background-color: brown;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 1800px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+  
+/* Start of 5th Graph */
+.graph5 {
+  padding-top: -200px;
+  margin-right: 30px;
+}
+
+.graph5 h2 {
+  color: Black;
+  text-decoration: underline;
+  text-align:center;
+  margin-top: 50px;
+}
+
+.graph5 .Cabins {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    Blue 0,
+    Blue 27.12deg,
+    Orange 27.12deg,
+    Orange 107.25deg,
+    Lime 107.25deg,
+    Lime 223.14deg,
+    Green 223.14deg,
+    Green 279.85deg,
+    brown 279.85deg,
+    brown 334.09deg,
+    yellow 334.09deg,
+    yellow 360deg
+  );
+  margin-left: 750px;
+  margin-top: 40px;
+  
+}
+
+.C1 {
+  position: relative;
+  font-size: 25px;
+  top: -100px;
+  left: 70px;
+  color: white;
+  transform-origin: 0,0;
+  transform: rotate(-75deg)
+}
+
+.C2 {
+  position: relative;
+  font-size: 35px;
+  top: 100px;
+  left: 225px;
+  color: White;
+}
+
+.C3{
+  position: relative;
+  font-size: 40px;
+  top: 175px;
+  left: 150px;
+  color: Black;
+
+}
+
+.C4{
+  position: relative;
+  font-size: 30px;
+  top: 70px;
+  left: 30px;
+  color: white;
+ 
+}
+
+.C5{
+  position: relative;
+  font-size: 30px;
+  top: 10px;
+  left: 20px;
+  color: white;
+  transform-origin: 0,0;
+  transform: rotate(30deg)
+}
+.C6{
+  position: relative;
+  font-size: 25px;
+  top: 10px;
+  left: 15px;
+  color: Black;
+  transform-origin: 0,0;
+  transform: rotate(75deg)
+}
+
+.Z1{
+  background-color: Blue;
+  padding: 20px;
+  border: 20px blue;
+  lenght: 200px;
+  width: 50px;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 625px;
+  margin-top: 40px;
+}
+
+.Z2{
+  background-color: Orange;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 725px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Z3{
+background-color: Lime;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 825px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+}
+.Z4{
+  background-color: Green;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 925px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.Z5{
+  background-color: brown;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 1025px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.Z6{
+  background-color: Yellow;
+  padding: 20px;
+  border: 20px red;
+  length: 200px;
+  width: 50px;
+  margin-left: 1125px;
+  margin-top: -75px;
+  font-size: 30px;
+  text-align: center;
